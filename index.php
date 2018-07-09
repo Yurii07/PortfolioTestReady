@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <?php get_sidebar(); ?>
-
+<!-- added comments-->
 
 <main>
 	<div class="banner">
