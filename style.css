@@ -19,21 +19,24 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	padding: 0; 
 }
 
-	body {
-		background-color: #fff;
+body {
+    background-color: #fff;
 
-	}
-	p{
-		font-size: 0.94em;
-	}
+}
+
+p {
+    font-size: 0.94em;
+}
 .banner	{
-background-image: url('images/laptop_back_02.png');
+    background-image: url('images/laptop_back_02.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 530px;
     padding-top: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .laptop img{
   display: block;
@@ -105,7 +108,7 @@ ul.list li.list-item p {
 ul.list li:after {
   content: '•••';
   text-align: left;
-display: inline-block;
+    display: inline-block;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -114,10 +117,10 @@ display: inline-block;
   font-size: 15px; 
   letter-spacing: 4px;
   margin-top: 2px;
-      position: absolute;
+    position: absolute;
     left: 10px;
     color: #fff;
-  }
+}
 ul.list li:last-child:after
 {
   content: '';
@@ -135,3 +138,104 @@ ul.list li:last-child:after
 .btn.order:hover {
 	background-color: #008CBA;
 }
+
+.enpty-div {
+    height: 500px;
+}
+
+.advantages .linear {
+    background: linear-gradient(to right, #f3f5f6 0%, #d6dddf 100%);
+
+}
+
+.advantages .row.around-md .col-md:nth-child(1) {
+    background-color: #edf0f1;
+
+}
+
+.advantages .row.around-md .col-md:nth-child(2) {
+    background-color: #e8ebed;
+
+}
+
+.advantages .row.around-md .col-md:nth-child(3) {
+    background-color: #e2e7e8;
+
+}
+
+.advantages .row.around-md .col-md:nth-child(4) {
+    background-color: #dce2e4;
+
+}
+
+.advantages .row.around-md .col-md img {
+    display: block;
+    margin: 0 auto;
+    padding: 70px 0 40px 0;
+
+}
+
+.advantages .row.around-md .col-md:nth-child(1) img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69%;
+    height: auto;
+}
+
+.advantages .row.around-md .col-md:nth-child(2) img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    height: auto;
+}
+
+.advantages .row.around-md .col-md:nth-child(3) img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: auto;
+}
+
+.advantages .row.around-md .col-md p.paragraf {
+    font-size: 20px;
+    font-family: "Exo2";
+    color: rgb(68, 68, 68);
+    text-align: center;
+    z-index: 126;
+}
+
+.advantages .pos {
+    position: relative;
+}
+
+h3.advantages {
+    font-size: 2.1em;
+    font-family: "Comfortaa";
+    color: rgb(68, 68, 68);
+    text-align: left;
+    z-index: 138;
+    padding: 0;
+
+}
+
+h3.advantages {
+    position: relative;
+    padding-left: 40px;
+}
+
+h3:before {
+    background-image: url('images/TestReady1_03.png');
+    background-size: 100px 100px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    content: "";
+    position: absolute;
+    top: -65px;
+    left: -25px;
+}
+
+/*__________blog_________*/
