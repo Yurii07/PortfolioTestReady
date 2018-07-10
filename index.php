@@ -80,7 +80,7 @@
 
 	<div class="blog">
 		<div class="container">
-            <h2 class="advantages ">Наши преймущества</h2>
+            <h2 class="advantages ">Наш блог</h2>
             <div class="blog_wrap">
                 <div class="row">
                     <div class="col-md-7 pl">

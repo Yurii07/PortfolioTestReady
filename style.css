@@ -62,7 +62,7 @@ a.write-us {
 }
 
 .banner	{
-    background-image: url('images/laptop_back_02.png');
+    background-image: url('http://adamenko-portfolio/wp-content/uploads/2018/07/laptop_back_02.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ ul.list li.list-item span {
 }
 
 ul.list li:first-child:before {
-  background: transparent url("images/TestReady_093.png") scroll 0 0 no-repeat;
+    background: transparent url("http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady_093.png") scroll 0 0 no-repeat;
   content:"";
   width: 50px;
   height: 50px;
@@ -109,7 +109,7 @@ ul.list li:first-child:before {
   top: 8px;
 }
 ul.list li:nth-child(2):before {
-  background: transparent url("images/TestReady_06.png") scroll 0 0 no-repeat;
+    background: transparent url("http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady_06.png") scroll 0 0 no-repeat;
   content:"";
   width: 50px;
   height: 50px;
@@ -118,7 +118,7 @@ ul.list li:nth-child(2):before {
   top: 8px;
 }
 ul.list li:nth-child(3):before {
-  background: transparent url("images/TestReady_08.png") scroll 0 0 no-repeat;
+    background: transparent url("http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady_08.png") scroll 0 0 no-repeat;
   content:"";
   width: 50px;
   height: 50px;
@@ -260,7 +260,7 @@ h3.advantages {
 }
 
 h3:before {
-    background-image: url('images/TestReady1_03.png');
+    background-image: url('http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady1_03.png');
     background-size: 100px 100px;
     display: inline-block;
     width: 100px;
@@ -273,7 +273,7 @@ h3:before {
 
 /*__________blog_________*/
 .blog {
-    background-image: url('images/blog_02.png');
+    background-image: url('http://adamenko-portfolio/wp-content/uploads/2018/07/blog_02.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -459,7 +459,7 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .blog .container h2.advantages {
@@ -474,7 +474,7 @@ a:hover {
 }
 
 .blog .container h2.advantages:before {
-    background-image: url('images/blog02_03.png');
+    background-image: url('http://adamenko-portfolio/wp-content/uploads/2018/07/blog02_03.png');
     background-size: 100px 100px;
     display: inline-block;
     width: 100px;
@@ -520,8 +520,7 @@ a:hover {
 }
 
 .laptobBook {
-    background-image: url('images/TestReady_03_06.png');
-    background: url(images/TestReady_03_06.png) 65% 100% no-repeat; /* Добавляем фон */
+    background: url('http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady_03_06.png') 100% 100% no-repeat;
     background-size: cover;
 }
 
@@ -535,8 +534,7 @@ p.pb__icons {
 }
 
 .glasses {
-    background-image: url('images/TestReady_03_10.png');
-    background: url(images/TestReady_03_10.png) 65% 100% no-repeat; /* Добавляем фон */
+    background: url('http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady_03_10.png') 65% 100% no-repeat; /* Добавляем фон */
     background-size: cover;
 }
 
@@ -547,7 +545,7 @@ a.pull-right {
 
 /*footer*/
 footer {
-    background-image: url('images/footer_02.png');
+    background-image: url('http://adamenko-portfolio/wp-content/uploads/2018/07/footer_02.png');
 
     background-size: cover;
 }
