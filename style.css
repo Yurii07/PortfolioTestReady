@@ -26,7 +26,41 @@ body {
 
 p {
     font-size: 0.94em;
+    font-family: "Comfortaa";
 }
+
+/*navbar*/
+ul.navbar-nav {
+    z-index: 5;
+    display: flex;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+ul.navbar-nav li {
+    max-width: 800px;
+    position: relative;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul.navbar-nav li a {
+    color: rgb(68, 68, 68);
+    font-size: 1.2em;
+    font-family: "Exo2";
+
+    text-align: left;
+}
+
+a.write-us {
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+}
+
 .banner	{
     background-image: url('images/laptop_back_02.png');
     background-attachment: fixed;
@@ -59,7 +93,6 @@ ul.list li.list-item{
 ul.list li.list-item span { 
   font-size: 24px;
   font-family: "Comfortaa";
-  /*font-weight: bold;*/
   color: rgb( 255, 255, 255 );
   line-height: 0.833;
   text-align: left;
@@ -218,12 +251,12 @@ h3.advantages {
     text-align: left;
     z-index: 138;
     padding: 0;
-
 }
 
 h3.advantages {
     position: relative;
-    padding-left: 40px;
+    padding-left: 33px;
+    padding-top: 4px;
 }
 
 h3:before {
@@ -239,3 +272,351 @@ h3:before {
 }
 
 /*__________blog_________*/
+.blog {
+    background-image: url('images/blog_02.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.radius {
+    border-radius: 2px;
+}
+
+.shadowDepth1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* Card Styles*/
+.card {
+    background-color: #fff;
+    height: 100%;
+}
+
+.card__padding {
+    padding: 1.6rem;
+}
+
+.card__content {
+    position: relative;
+}
+
+.card__article a {
+    text-decoration: none;
+    color: #444;
+    transition: all 0.5s ease;
+}
+
+.card__article a:hover {
+    color: #2980b9;
+}
+
+.card__share {
+    float: right;
+    position: relative;
+    margin-top: -42px;
+}
+
+.card__social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    width: 160px;
+    transform: translateZ(0);
+    transform: translateX(0px);
+    transition: transform 0.35s ease;
+}
+
+.card__social--active {
+    visibility: visible;
+    z-index: 3;
+    transform: translateZ(0);
+    transform: translateX(-48px);
+    transition: transform 0.35s ease;
+}
+
+.share-toggle {
+    z-index: 2;
+}
+
+.share-toggle:before {
+    content: "\f1e0";
+    font-family: "FontAwesome";
+    color: #3498db;
+}
+
+.share-toggle.share-expanded:before {
+    content: "\f00d";
+}
+
+.share-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    outline: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.share-icon:hover,
+.share-icon:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #00abe3;
+}
+
+.googleplus {
+    background-color: #d3492c;
+}
+
+.facebook,
+.twitter,
+.googleplus {
+    color: #fff;
+}
+
+.facebook:hover,
+.twitter:hover,
+.googleplus:hover {
+    color: #eee;
+}
+
+.row .cards {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons {
+    position: relative;
+}
+
+.social-icons a.fa-long-arrow {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    border-width: 2px;
+    border-color: rgb(196, 196, 197);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 7px;
+    position: absolute;
+    right: 20px;
+}
+
+.social-icons a {
+
+    color: rgb(68, 68, 68);
+    border-width: 2px;
+    border-color: rgb(196, 196, 197);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 3px;
+    padding: 5px;
+    z-index: 217;
+}
+
+.social-icons a:hover {
+    background-color: rgb(196, 196, 197);
+    color: #fff;
+}
+
+.blog_wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.blog .container h2.advantages {
+    position: relative;
+    padding-left: 42px;
+    padding-top: 15px;
+    font-size: 26px;
+    font-family: "Comfortaa";
+    color: rgb(255, 255, 255);
+    z-index: 250;
+
+}
+
+.blog .container h2.advantages:before {
+    background-image: url('images/blog02_03.png');
+    background-size: 100px 100px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    content: "";
+    position: absolute;
+    top: -65px;
+    left: -25px;
+}
+
+.cols1 {
+    width: 60%;
+    height: auto;
+}
+
+.cols2 {
+    width: 40%;
+    height: auto;
+}
+
+.pr, .pl {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.card-2-colum {
+    max-height: 160px;
+}
+
+.card__article p {
+    font-size: 0.88em;
+    font-family: 'Exo 2';
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+    text-align: left;
+
+}
+
+.card__article h5 a {
+    font-size: 1em;
+    font-family: 'Exo 2';
+    font-weight: 400;
+}
+
+.laptobBook {
+    background-image: url('images/TestReady_03_06.png');
+    background: url(images/TestReady_03_06.png) 65% 100% no-repeat; /* Добавляем фон */
+    background-size: cover;
+}
+
+p.pb__icons {
+    padding-bottom: 40px;
+}
+
+.my-3 {
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
+
+.glasses {
+    background-image: url('images/TestReady_03_10.png');
+    background: url(images/TestReady_03_10.png) 65% 100% no-repeat; /* Добавляем фон */
+    background-size: cover;
+}
+
+a.pull-right {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    background-image: url('images/footer_02.png');
+
+    background-size: cover;
+}
+
+/*navbar*/
+.navbar-nav-footer li a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+ul.navbar-nav-footer {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul.navbar-nav-footer li a {
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+
+}
+
+ul.share_icons-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 27%;
+    justify-content: space-around;
+}
+
+ul.share_icons-wrap li {
+    width: 25px;
+    list-style: none;
+
+}
+
+h5.text-uppercase {
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(96, 170, 219);
+    text-align: left;
+    z-index: 295;
+}
+
+ul.list-unstyled li p {
+    font-family: 'Exo 2';
+    font-weight: lighter;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.444;
+    z-index: 295;
+}
+
+.list-unstyled:hover {
+    text-decoration: none;
+
+}
+
+.navbar-nav-footer a, .footer-copyright {
+    color: #fff;
+}
+
+.list-unstyled a {
+    color: #fff;
+}
+
+.list-unstyled p {
+    color: #fff;
+}

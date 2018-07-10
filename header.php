@@ -4,6 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Testing</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Exo+2:300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="libs/revealator/fm.revealator.jquery.css">
+    <!-- <script src="js/jquery-1.11.3.min.js"></script> -->
+    <script src="libs/revealator/fm.revealator.jquery.js"></script>
 
 	<?php wp_head(); ?>
 </head>
@@ -26,7 +31,7 @@
   'echo'            => true,
   'fallback_cb'     => 'wp_page_menu',
   'before'          => '',
-  'after'           => '',
+      'after' => '(066) 660-49-29<br>(066) 660-49-39<br><a class="write-us" href="#">Написать нам</a>',
   'link_before'     => '',
   'link_after'      => '',
   'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',

@@ -2,7 +2,6 @@
 <?php get_header(); ?>
 
 <?php get_sidebar(); ?>
-<!-- added comments-->
 
 <main>
 	<div class="banner">
@@ -10,8 +9,8 @@
 			<div class="row">
 				<div class="col">
 					<ul class="list">
-						<li class="list-item">
-							<span class="item-bigsize">Аудит сайта</span>
+                        <li class="list-item ">
+                            <span class="item-bigsize revealator-zoomout revealator-once">Аудит сайта</span>
 							<p>Первые шаги для роста ваших продаж</p>
 						</li>
 
@@ -26,9 +25,9 @@
 							вашего бизнеса</p>
 						</li>
 					</ul>
-					<button type="button" class="btn order">Заказать консультацию</button>
+                    <button type="button" class="btn order ">Заказать консультацию</button>
 				</div>
-				<div class="col laptop">
+                <div class="col laptop ">
 					<img src="http://adamenko-portfolio/wp-content/uploads/2018/07/laptop_03.png" alt="">
 				</div>
 			</div>
@@ -43,7 +42,7 @@
         <div class="linear">
             <div class="container ">
                 <div class="row">
-                    <h3 class="advantages">Наши преймущества</h3>
+                    <h3 class="advantages ">Наши преймущества</h3>
                 </div>
                 <div class="row around-md">
                     <div class="col-md">
@@ -81,13 +80,215 @@
 
 	<div class="blog">
 		<div class="container">
+            <h2 class="advantages ">Наши преймущества</h2>
+            <div class="blog_wrap">
+                <div class="row">
+                    <div class="col-md-7 pl">
+                        <div class="first_blog">
+                            <img src="http://adamenko-portfolio/wp-content/uploads/2018/07/blog_03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="card radius shadowDepth1">
+                            <div class="card__content card__padding">
+                                <div class="card__share">
+                                    <div class="card__social">
+                                        <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                        <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                        <a class="share-icon googleplus" href="#"><span
+                                                    class="fa fa-google-plus"></span></a>
+                                    </div>
 
-		</div>
-	</div>
+                                    <a id="share" class="share-toggle share-icon" href="#"></a>
+                                </div>
+                                <article class="card__article">
+                                    <h5><a href="#">Статья с большим фото</a></h5>
+                                    <p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции
+                                        играет важную роль в формировании позиций, занимаемых участниками в отношении
+                                        поставленных задач. Повседневная практика показывает, что постоянный
+                                        количественный рост и сфера нашей активности в значительной...</p>
+                                    <div class="social-icons">
+                                        <a href="#">
+                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </a>
 
-	<div class="enpty-div">
+                                        <a href="#" class="fa-long-arrow">
+                                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	</div>
+            <!--  <-->
+            <div class="row my-3">
+
+                <div class="col-md-7">
+                    <div class="row ">
+                        <div class="col-md pr laptobBook">
+                        </div>
+                        <div class="col-md pl">
+                            <div class="card radius shadowDepth1">
+
+                                <div class="card__content card__padding">
+                                    <div class="card__share">
+                                        <div class="card__social">
+                                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                            <a class="share-icon twitter" href="#"><span
+                                                        class="fa fa-twitter"></span></a>
+                                            <a class="share-icon googleplus" href="#"><span
+                                                        class="fa fa-google-plus"></span></a>
+                                        </div>
+
+                                        <a id="share" class="share-toggle share-icon" href="#"></a>
+                                    </div>
+
+
+                                    <article class="card__article color_cars">
+                                        <h5><a href="#">Средняя версия статьи</a></h5>
+                                        <p>Разнообразный и богатый опыт начало повседневной работы по формированию
+                                            позиции играет важную роль в формировании позиций, занимаемых участниками в
+                                            отношении поставленных задач. Повседневная практика показывает, что
+                                            постоянный количественный рост и сфера нашей активности в
+                                            значительной...</p>
+                                        <div class="social-icons d-flex">
+                                            <a href="#">
+                                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                            </a>
+
+                                            <a href="#" class="fa-long-arrow">
+                                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-5">
+                    <div class="card radius shadowDepth1 left_space">
+
+                        <div class="card__content card__padding">
+                            <div class="card__share">
+                                <div class="card__social">
+                                    <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                    <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="share-icon googleplus" href="#"><span
+                                                class="fa fa-google-plus"></span></a>
+                                </div>
+
+                                <a id="share" class="share-toggle share-icon" href="#"></a>
+                            </div>
+
+
+                            <article class="card__article">
+                                <h5><a href="#">Статья без фото</a></h5>
+                                <p class="pb__icons">Разнообразный и богатый опыт начало повседневной работы по
+                                    формированию позиции играет важную роль в формировании позиций, занимаемых
+                                    участниками в отношении поставленных задач. Повседневная практика показывает, что
+                                    постоянный количественный рост и сфера нашей активности в значительной...</p>
+                                <div class="social-icons d-flex">
+                                    <a href="#">
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+
+                                    <a href="#" class="fa-long-arrow">
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+
+                            </article>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-md-7 pl">
+                    <!--  -->
+                    <div class="card radius shadowDepth1 left_space">
+
+                        <div class="card__content card__padding">
+                            <div class="card__share">
+                                <div class="card__social">
+                                    <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                    <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="share-icon googleplus" href="#"><span
+                                                class="fa fa-google-plus"></span></a>
+                                </div>
+
+                                <a id="share" class="share-toggle share-icon" href="#"></a>
+                            </div>
+
+
+                            <article class="card__article">
+                                <h5><a href="#">Начало статьи в две колонки</a></h5>
+                                <div class="row">
+                                    <p class="col-md">Разнообразный и богатый опыт начало повседневной работы по
+                                        формированию позиции играет важную роль в формировании позиций, занимаемых
+                                        участниками в отношении поставленных задач. Повседневная практика показывает,
+                                        что постоянный количественный рост и сфера нашей активности в
+                                        значительной...</p>
+                                    <p class="col-md">Разнообразный и богатый опыт начало повседневной работы по
+                                        формированию позиции играет важную роль в формировании позиций, занимаемых
+                                        участниками в отношении поставленных задач. Повседневная практика показывает,
+                                        что постоянный количественный рост и сфера нашей активности в
+                                        значительной...</p>
+
+
+                                </div>
+                                <div class="social-icons">
+                                    <a href="#">
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+
+                                    <a href="#" class="fa-long-arrow">
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <div class="col-md-5 glasses">
+
+                </div>
+            </div>
+
+            <!-- button -->
+
+            <a href="#" class="btn pull-right" role="button">Все статьи</a>
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="enpty-div">
+
+    </div>
 
 </main>
 
