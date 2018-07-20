@@ -1,14 +1,15 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
-	<meta charset="UTF-8">
-	<title>Testing</title>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--	<title>Testing</title>-->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Exo+2:300,400" rel="stylesheet">
 
-    <link rel="stylesheet" href="libs/revealator/fm.revealator.jquery.css">
-    <!-- <script src="js/jquery-1.11.3.min.js"></script> -->
-    <script src="libs/revealator/fm.revealator.jquery.js"></script>
+<!--    <script type="text/javascript" src="--><?php //echo get_template_directory_uri(); ?><!--/dist/js/vendor.js'"></script>-->
+
+<!--    <script type="text/javascript" src="--><?php //echo get_template_directory_uri(); ?><!--/dist/js/custom.js'"></script>-->
+
 
 	<?php wp_head(); ?>
 </head>
@@ -20,24 +21,19 @@
 
   <?php the_custom_logo(); ?>
 
-  <?php wp_nav_menu( array(
-  'theme_location'  => '',
-  'menu'            => '', 
-  'container'       => 'ul', 
-  'container_class' => 'navbar-nav ml-auto', 
-  'container_id'    => '',
-  'menu_class'      => 'navbar-nav ml-auto', 
-  'menu_id'         => '',
-  'echo'            => true,
-  'fallback_cb'     => 'wp_page_menu',
-  'before'          => '',
-      'after' => '(066) 660-49-29<br>(066) 660-49-39<br><a class="write-us" href="#">Написать нам</a>',
-  'link_before'     => '',
-  'link_after'      => '',
-  'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-  'depth'           => 0,
-  'walker'          => '',
-) );  ?>
+                      <?php
+                      wp_nav_menu( array(
+                        'menu'              => 'primary',
+                        'theme_location'    => 'primary',
+                        'depth'             => 2,
+                        'container'         => 'div',
+                        'container_class'   => 'collapse navbar-collapse',
+                        'container_id'      => 'bs-example-navbar-collapse-1',
+                        'menu_class'        => 'nav navbar-nav',
+                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                        'walker'            => new wp_bootstrap_navwalker())
+
+                        );  ?>
 
 </nav>
 </div>

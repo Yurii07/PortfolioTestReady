@@ -28,7 +28,7 @@
                     <button type="button" class="btn order ">Заказать консультацию</button>
 				</div>
                 <div class="col laptop ">
-					<img src="http://adamenko-portfolio/wp-content/uploads/2018/07/laptop_03.png" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/src/img/yura/laptop_03.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -45,26 +45,27 @@
                     <h3 class="advantages ">Наши преймущества</h3>
                 </div>
                 <div class="row around-md">
+
                     <div class="col-md">
-                        <img src="http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady1_13.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/src/img/yura/TestReady1_13.png" alt="">
                         <p class="paragraf">Надёжность</p>
                         <p>На портрете была изображена дама в меховой шляпе и боа, она сидела очень прямо и протягивала
                             зрителю тяжелую меховую муфту.</p>
                     </div>
                     <div class="col-md">
-                        <img src="http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady1_10.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/src/img/yura/TestReady1_10.png" alt="">
                         <p class="paragraf">Качество</p>
                         <p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в
                             постели превратился в насекомое. </p>
                     </div>
                     <div class="col-md">
-                        <img src="http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady11_13.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/src/img/yura/TestReady11_13.png" alt="">
                         <p class="paragraf">Цена</p>
                         <p>Его многочисленные, убого тонкие по сравнению с остальным телом ножки беспомощно копошились у
                             него перед глазами.</p>
                     </div>
                     <div class="col-md">
-                        <img src="http://adamenko-portfolio/wp-content/uploads/2018/07/TestReady1_07.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/src/img/yura/TestReady1_07.png" alt="">
                         <p class="paragraf">Скорость</p>
                         <p>Его комната, настоящая, разве что слишком маленькая, но обычная комната, мирно покоилась в
                             своих четырех хорошо знакомых стенах. </p>
@@ -85,7 +86,7 @@
                 <div class="row">
                     <div class="col-md-7 pl">
                         <div class="first_blog">
-                            <img src="http://adamenko-portfolio/wp-content/uploads/2018/07/blog_03.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/src/img/yura/blog_03.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-5 ">
