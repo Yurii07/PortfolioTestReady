@@ -29,8 +29,6 @@
 <!--            One of three columns-->
             <nav class="navbar navbar-expand-lg ">
 
-
-
                 <?php
                 wp_nav_menu( array(
                         'menu'              => 'primary',

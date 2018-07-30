@@ -3,17 +3,22 @@
 footer {
   background-image: url('../img/yura/footer_02.png');
   background-size: cover;
-  padding: 50px 0;
+  padding: 43px 0;
   .container {
     .row {
       .col-md {
         .row {
           .menu-footer-nav-container {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             .menu {
+
               display: flex;
               li {
                 justify-content: space-around;
+                padding: 0px 20px;
+                padding: 0px 21px;
+                position: relative;
+                left: 13%;
                 a {
                   font-size: 20px;
                   font-family: 'Exo 2', sans-serif;
@@ -32,6 +37,7 @@ footer {
         .row {
           .col-md {
             .row {
+
               .share_icons-wrap {
                 display: -webkit-flex;
                 display: -moz-flex;
@@ -40,7 +46,8 @@ footer {
                 display: flex;
                 width: 30%;
                 justify-content: flex-start;
-                padding-bottom: 10px;
+                padding-bottom: 10px;position: relative;
+                left: 15%;
                 li {
                   padding: 0 5px;
                   list-style: none;
@@ -50,6 +57,8 @@ footer {
                 }
               }
               p {
+                position: relative;
+                left: 15%;
                 font-size: 18px;
                 font-family: "Exo2";
                 color: #fff;
@@ -63,6 +72,7 @@ footer {
         .row {
           .col-md-6 {
             .row {
+
               .list-unstyled {
                 li {
                   font-size: 18px;

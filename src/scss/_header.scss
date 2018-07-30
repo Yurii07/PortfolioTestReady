@@ -1,37 +1,54 @@
-
 header {
-  padding-top: 5px;
   .container-fluid {
-
-    .navbar  {
-
-      .collapse{
-
-        .nav {
-          z-index: 5;
+    .row {
+      margin: 12px 0;
+      .col-md-3 {
+        a {
           display: flex;
-          position: relative;
-          margin-bottom: 15px;
+          justify-content: center;
+         img {
+           position: relative;
+           left: 8%;
+         }
+        }
 
-          .menu-item {
-            max-width: 800px;
-            position: relative;
-            padding: 0 30px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
+      }
+      .col-md-6 {
+        display: flex;
+        justify-content: flex-end;
+        .navbar {
 
-            a {
-              color: rgb(68, 68, 68);
-              font-size: 1.2em;
-              font-family: "Exo2";
-              text-align: left;
+          .collapse {
+
+            .nav {
+
+              li {
+
+                a{
+                  font-size: 18px;
+                  font-family: "Exo 2";
+                  color: rgb(68, 68, 68);
+                  line-height: 1.2;
+                  text-align: left;
+                  z-index: 5;
+                  padding: 10px 13px;
+                }
+              }
             }
           }
         }
       }
-    }/*end of navbar */
+      .col-md-3 {
+          font-size: 16px;
+          font-family: "Exo 2";
+          color: rgb(68, 68, 68);
+          line-height: 1.2;
+          text-align: center;
+          z-index: 320;
+        a {
 
+        }
+      }
+    }
   }
 }
