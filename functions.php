@@ -20,6 +20,8 @@ function remove_head_scripts() {
     add_action('wp_footer', 'wp_enqueue_scripts', 5);
     add_action('wp_footer', 'wp_print_head_scripts', 5);
 }
+
+//add_action('after_setup_theme', 'mytheme_setup');
 //add_action( 'wp_enqueue_scripts', 'remove_head_scripts' );
 
 

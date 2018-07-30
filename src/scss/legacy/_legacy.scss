@@ -493,13 +493,13 @@ a:hover {
 }
 
 .share-toggle:before {
-  content: "\f1e0";
-  font-family: "FontAwesome";
+  //content: "\f1e0";
+  //font-family: "FontAwesome";
   color: #3498db;
 }
 
 .share-toggle.share-expanded:before {
-  content: "\f00d";
+  //content: "\f00d";
 }
 
 .share-icon {

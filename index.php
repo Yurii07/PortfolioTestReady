@@ -94,13 +94,16 @@
                             <div class="card__content card__padding">
                                 <div class="card__share">
                                     <div class="card__social">
-                                        <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                                        <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                        <a class="share-icon facebook" href="#">
+                                            <span class="fab fa-facebook-f"></span></a>
+                                        <a class="share-icon twitter" href="#"><span class="fab fa-twitter"></span></a>
                                         <a class="share-icon googleplus" href="#"><span
-                                                    class="fa fa-google-plus"></span></a>
+                                                    class="fab fa-google-plus-g"></span></a>
                                     </div>
 
-                                    <a id="share" class="share-toggle share-icon" href="#"></a>
+                                    <a id="share" class="share-toggle share-icon" href="#">
+                                        <span class="fa fa-share-alt"></span>
+                                    </a>
                                 </div>
                                 <article class="card__article">
                                     <h5><a href="#">Статья с большим фото</a></h5>
@@ -140,14 +143,17 @@
                                 <div class="card__content card__padding">
                                     <div class="card__share">
                                         <div class="card__social">
-                                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                            <a class="share-icon facebook" href="#"><span class="fab fa-facebook-f"></span></a>
                                             <a class="share-icon twitter" href="#"><span
-                                                        class="fa fa-twitter"></span></a>
+                                                        class="fab fa-twitter"></span></a>
                                             <a class="share-icon googleplus" href="#"><span
-                                                        class="fa fa-google-plus"></span></a>
+                                                        class="fab fa-google-plus-g"></span></a>
+
                                         </div>
 
-                                        <a id="share" class="share-toggle share-icon" href="#"></a>
+                                        <a id="share" class="share-toggle share-icon" href="#">
+                                            <span class="fa fa-share-alt"></span>
+                                        </a>
                                     </div>
 
 
@@ -184,13 +190,15 @@
                         <div class="card__content card__padding">
                             <div class="card__share">
                                 <div class="card__social">
-                                    <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                                    <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="share-icon facebook" href="#"><span class="fab fa-facebook-f"></span></a>
+                                    <a class="share-icon twitter" href="#"><span class="fab fa-twitter"></span></a>
                                     <a class="share-icon googleplus" href="#"><span
-                                                class="fa fa-google-plus"></span></a>
+                                                class="fab fa-google-plus-g"></span></a>
                                 </div>
 
-                                <a id="share" class="share-toggle share-icon" href="#"></a>
+                                <a id="share" class="share-toggle share-icon" href="#">
+                                    <span class="fa fa-share-alt"></span>
+                                </a>
                             </div>
 
 
@@ -230,13 +238,17 @@
                         <div class="card__content card__padding">
                             <div class="card__share">
                                 <div class="card__social">
-                                    <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                                    <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="share-icon facebook" href="#">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                    <a class="share-icon twitter" href="#"><span class="fab fa-twitter"></span></a>
                                     <a class="share-icon googleplus" href="#"><span
-                                                class="fa fa-google-plus"></span></a>
+                                                class="fab fa-google-plus-g"></span></a>
                                 </div>
 
-                                <a id="share" class="share-toggle share-icon" href="#"></a>
+                                <a id="share" class="share-toggle share-icon" href="#">
+                                    <span class="fa fa-share-alt"></span>
+                                </a>
                             </div>
 
 

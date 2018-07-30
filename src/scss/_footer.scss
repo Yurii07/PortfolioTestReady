@@ -1,101 +1,96 @@
 // page footer
 
-.page-footer {
+footer {
   background-image: url('../img/yura/footer_02.png');
   background-size: cover;
-  .container-fluid {
-
+  padding: 50px 0;
+  .container {
     .row {
-
-      .col-md-6 {
-
-        .navbar-nav-footer {
-          display: flex;
-          justify-content: space-around;
-          list-style: none;
-          li {
-
-            a {
-              font-size: 20px;
-              font-family: 'Exo 2', sans-serif;
-              text-align: left;
-              color: #fff;
-              &:hover {
-                color: #ccc;
-                text-decoration: none;
+      .col-md {
+        .row {
+          .menu-footer-nav-container {
+            margin-bottom: 40px;
+            .menu {
+              display: flex;
+              li {
+                justify-content: space-around;
+                a {
+                  font-size: 20px;
+                  font-family: 'Exo 2', sans-serif;
+                  text-align: left;
+                  color: #fff;
+                  &:hover {
+                    color: #ccc;
+                    text-decoration: none;
+                  }
+                }
               }
 
             }
           }
         }
+        .row {
+          .col-md {
+            .row {
+              .share_icons-wrap {
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+                width: 30%;
+                justify-content: flex-start;
+                padding-bottom: 10px;
+                li {
+                  padding: 0 5px;
+                  list-style: none;
+                  a {
 
-        .share_icons-wrap {
-          display: -webkit-flex;
-          display: -moz-flex;
-          display: -ms-flex;
-          display: -o-flex;
-          display: flex;
-          width: 27%;
-          justify-content: space-around;
-          li {
-            width: 25px;
-            list-style: none;
-            a {
-
-            }
-
-            .share-icon {
-
-              .fa {
-
+                  }
+                }
+              }
+              p {
+                font-size: 18px;
+                font-family: "Exo2";
+                color: #fff;
+                text-align: left;
               }
             }
           }
         }
-
-        .footer-copyright {
-          color: #fff;
-          br {
-
-          }
-        }
       }
-
-      .clearfix {
-
-      }
-
-      .col-md-3 {
-
-        .text-uppercase {
-          font-size: 18px;
-          font-family: 'Exo 2', sans-serif;
-          color: rgb(96, 170, 219);
-          text-align: left;
-          z-index: 295;
-        }
-
-        .list-unstyled {
-          &:hover{
-            text-decoration: none;
-          }
-
-          li {
-
-            a {
-              color: #fff;
+      .col-md {
+        .row {
+          .col-md-6 {
+            .row {
+              .list-unstyled {
+                li {
+                  font-size: 18px;
+                  font-family: "Exo2";
+                  color: #fff;
+                  text-align: left;
+                }
+              }
             }
-            p{
-              font-family: 'Exo 2';
-              font-weight: lighter;
+          }
+          .col-md-6 {
+            h5.text-uppercase {
               font-size: 18px;
-              line-height: 1.444;
-              z-index: 295;
+              font-family: "Exo2";
+              color: rgb(96, 170, 219);
+              text-align: left;
+              padding-bottom: 5px;
+            }
+            address {
+              font-size: 18px;
+              font-family: "Exo2";
               color: #fff;
+              text-align: left;
             }
           }
         }
       }
     }
+    //row
   }
 }
